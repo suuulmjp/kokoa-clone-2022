@@ -2,10 +2,14 @@
 @import "variables.css";
 /*Componets */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
 
 /*Screens*/
 @import "screens/login.css";
 
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height : 10000vh;
 }
