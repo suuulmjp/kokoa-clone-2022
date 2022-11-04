@@ -14,4 +14,15 @@
 
 .screen-header__icons span {
     margin-left: 20px;
+    position: relative;
 }
+.cog__alram {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    display: flex;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    }
