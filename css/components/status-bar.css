@@ -1,3 +1,15 @@
+.status-bar2 {
+    position: sticky;
+    top:0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:5px 3px;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+}
 
 .status-bar {
     position: sticky;
@@ -18,8 +30,8 @@
     margin-right: 5px;
 }
 .status-bar__column:nth-child(2){
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .status-bar__column:last-child{
     display: flex;

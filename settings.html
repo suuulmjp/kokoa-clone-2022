@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chats - YJ TALK</title>
+    <title>Settings - YJ TALK</title>
 </head>
 <body>
     <div class="status-bar">
@@ -22,40 +22,46 @@
             <i class="fas fa-bolt"></i>
         </div>        
     </div>
-
-    <header class="screen-header">
-        <h1 class="screen-header__title">Chats</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="far fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><a href="settings.html"><div class="point"></div><i class="fas fa-cog fa-lg"></i></a></span>
+    
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+            <i class="fas fa-angle-left fa-3x"></i></a>
         </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
+        
     </header>
 
-
-
     <main class="main-screen">
-        <a href="chat.html">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://postfiles.pstatic.net/MjAyMjExMDRfMTEg/MDAxNjY3NTY4MjA0NzYx.5WIwHD5ZHDz73CRAkA7U05TmRkKMxz7-Bp8nB4M8XMsg.8Nx6t-NFVaaZyTDot6qHU_dovVzNIKdIpRPZihjLCH8g.JPEG.minsu0874/20221006_061241000_iOS.jpg?type=w580" 
-                     class="user-component__avatar user-component__avatar" 
-                />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">🐷</h4>
-                    <h6 class="user-component__subtitle">ぶうぶう！！</h6>
+        <ul class="setting-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">02:23</span>
-                <div class="badge">957</div>
-            </div>
-        </div>
-        </a>
+                <div class="settings__setting-column"></div>             
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>YJ Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Version</span>
+                </div>
+                <div class="settings__setting-column">Lastest Version</div>
+            </li>
+        </ul>
     </main>
-
-    
 
     <nav class="nav">
         <ul class="nav__list">
@@ -68,7 +74,7 @@
             <li class ="nav__btn">
                 <a class ="nav__link" href="chats.html">
                     <span class="nav__notification badge">957</span>
-                        <i class="fas fa-comment fa-2x"></i>
+                        <i class="far fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class ="nav__btn">
