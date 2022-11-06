@@ -9,6 +9,7 @@
 @import "components/badge.css";
 @import "components/point.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 
 /*Screens*/
 @import "screens/login.css";
@@ -22,7 +23,7 @@
 body {
     color: #2e363e;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    height : 10000vh;
+    height : 150vh;
 }
 
 .main-screen {

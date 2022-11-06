@@ -1,3 +1,6 @@
+#background{
+    height: 150vh;
+}
 .recommended-friends{
     margin: 25px 0px;
     padding: 25px 0px;
@@ -100,4 +103,24 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+}
+
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(2);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__photo:hover i{
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }
